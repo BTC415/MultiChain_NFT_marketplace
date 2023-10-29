@@ -1,0 +1,6 @@
+export const MarketPlaceContractAddress = '0x20b8FBF7f7Ef2A10F8e948e9F2DFfF8214Eb70Ad';
+export const MarketPlaceErc1155SaleContractAddress = '0x0C66d802E042Ee7A083016014F50Bc0d9a7630eE';
+export const MarketPlaceErc1155OfferContractAddress = '0xe0Bcd8cdB7A6Ce7e3EfBCee52A8e2f540ce474Fb';
+
+// f89fdc3c8a8c8d59a4beb7e3bcef5c5615f8fcb1c2666770bf49dccc1497dd18
+//  e982dd95133c5382c5afb7ee6283e1d74b032246800da65e204a94bb9bfbf928

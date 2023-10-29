@@ -1,0 +1,42 @@
+.my-nfts {
+    .nfts-list {
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        min-height: 450px;
+
+        .no-nftGroup {
+            position: absolute;
+            left: 50%;
+            margin-top: 155px;
+            transform: translate(-50%, 0%);
+            display: flex;
+            flex-direction: column;
+            gap: 9px;
+
+            .title {
+                font-family: 'Poppins';
+                font-weight: 600;
+                font-size: 20px;
+                text-align: center;
+
+                color: #FFFFFF;
+            }
+
+            .subTitle {
+                font-family: 'Poppins';
+                font-weight: 400;
+                font-size: 15px;
+                text-align: center;
+                color: #B4B4B4;
+            }
+        }
+    }
+
+    @media(max-width:540px) {
+        .nfts-list {
+            justify-content: center;
+        }
+    }
+
+}

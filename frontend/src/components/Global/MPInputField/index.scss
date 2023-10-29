@@ -1,0 +1,22 @@
+.mp-input-field {
+    position: relative;
+    input {
+        background-color: #1D1F1F !important;
+        border: 2px solid #3D3D3D;
+        border-radius: 5px;
+        padding: 10px;
+        width: 100%;
+        color: white;
+        &::placeholder {
+            color: #6B6B6B;
+        }
+    }
+    .unit-text {
+        color: #B4B4B4;
+        font-size: 14px;
+        position: absolute;
+        transform: translateY(-50%);
+        top: 50%;
+        right: 20px;
+    }
+}

@@ -1,0 +1,136 @@
+.attributes-list {
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  margin-top: 30px;
+  padding: 10px 10px;
+  gap: 8px;
+  border-radius: 10px;
+  width: 100%;
+
+  .attributes-item {
+    background: #131313;
+    padding: 10px 15px;
+    width: 100%;
+
+    .title {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      color: #53FFFC;
+    }
+
+    .value {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      color: #FFFFFF;
+    }
+  }
+
+
+}
+
+.activity-list {
+  position: relative;
+  min-height: 400px;
+  border: 1px solid #3D3D3D;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  .activity-item {
+    background: #131313;
+    border-radius: 10px;
+    padding: 10px 15px;
+    display: flex;
+    gap: 13px;
+
+    .activity-img {
+      width: 45px;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .activity-content {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+
+      .activity-top {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .activity-top-left {
+          display: flex;
+          align-items: center;
+          gap: 6px;
+
+          .address {
+            font-family: 'Poppins';
+            font-style: normal;
+            color: #FFFFFF;
+          }
+
+          .status-type {
+            font-family: 'Poppins';
+            font-weight: 400;
+            font-size: 14px;
+            color: #B4B4B4;
+          }
+        }
+
+        .price {
+          font-family: 'Poppins';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 16px;
+          color: #53FFFC;
+        }
+      }
+
+      .activity-bottom {
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 14px;
+        color: #B4B4B4;
+      }
+    }
+  }
+
+  .no-nftGroup {
+    position: absolute;
+    left: 50%;
+    margin-top: 155px;
+    transform: translate(-50%, 0%);
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+
+    .title {
+      font-family: 'Poppins';
+      font-weight: 600;
+      font-size: 20px;
+      text-align: center;
+      color: #FFFFFF;
+      border: none
+    }
+
+    .subTitle {
+      font-family: 'Poppins';
+      font-weight: 400;
+      font-size: 15px;
+      text-align: center;
+      color: #B4B4B4;
+      border: none
+    }
+  }
+}

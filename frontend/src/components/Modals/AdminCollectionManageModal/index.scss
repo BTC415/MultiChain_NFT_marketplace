@@ -1,0 +1,43 @@
+.admin-collection-manage-modal {
+    .modal-dialog {
+        min-width: 800px !important;
+    }
+    .modal-header {
+        border-bottom: 1px solid #3D3D3D !important;
+    }
+    .content-title {
+        color: #B4B4B4;
+        margin-bottom: 10px !important;
+    }
+    .content-description {
+        color: white;
+    }
+    .contact-info-cell {
+        margin-top: 10px;
+        .info {
+            display: flex;
+            .content-title {
+                margin-bottom: 0px !important;
+            }
+            .content-description {
+                margin-left: 5px;
+            }
+        }
+        .control-link {
+            display: grid;
+            grid-auto-flow: column;
+            align-items: center;
+            column-gap: 10px;
+        }
+    }
+    .sub-content {
+        border-top: 1px solid #3D3D3D !important;
+        margin-top: 20px;
+        padding-top: 10px;
+    }
+    .control-buttons {
+        display: flex;
+        
+        column-gap: 20px;
+    }
+}

@@ -1,0 +1,37 @@
+.collection-cell {
+    .collection-name {
+        cursor: pointer;
+    }
+    .pending-collection {
+        background-color: rgba(250, 202, 80, 0.1);
+        border-radius: 5px;
+        p {
+            color: #FACA50;
+        }
+    }
+    .view-detail {
+        p {
+            color: #50FAF0;
+        }
+    }
+}
+.total-info {
+    display: flex;
+    .info-cell {
+        background-color: #131313;
+        padding: 10px 20px;
+        border-radius: 10px;
+        margin-right: 20px;
+        .info-data {
+            color: white;
+            font-size: 20px;       
+        }
+    }
+}
+.collection-table {
+    margin-top: 20px;
+    border-top: 1px solid #3D3D3D; 
+    .table-header {
+        margin-top: 15px;
+    }
+}

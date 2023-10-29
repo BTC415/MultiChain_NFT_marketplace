@@ -1,0 +1,339 @@
+.sweep-balance-control {
+    margin: 0 16px;
+
+    .sweep-balance-group {
+        background: #131313;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        padding: 26px 20px;
+
+        .title {
+            font-family: 'Poppins';
+            font-weight: 600;
+            font-size: 18px;
+            color: #FFFFFF;
+            margin: 0
+        }
+
+        .sweep-group {
+            background: #1D1F1F;
+            border-radius: 10px;
+            padding: 8px;
+            display: flex;
+            flex-direction: column;
+            gap: 11px;
+
+            .item-count {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                color: #B4B4B4;
+
+
+                input {
+                    background: transparent;
+                    border: 1px solid grey;
+                    font-size: 16px;
+                    color: white;
+                    margin-left: 8px;
+                }
+
+                input::-webkit-outer-spin-button,
+                input::-webkit-inner-spin-button {
+                    -webkit-appearance: none;
+                }
+            }
+
+            .sweep-lists {
+                display: flex;
+                gap: 11px;
+
+                .sweep-item {
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 12px;
+
+                    .sweep-img {
+                        width: 50px;
+                        height: 50px;
+
+                        img {
+                            width: 100%;
+                            height: 100%
+                        }
+                    }
+
+                    .sweep-price {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 5px
+                    }
+
+                    .sweep-remove {
+                        width: 20px;
+                        height: 20px;
+                        position: absolute;
+                        left: 50%;
+                        bottom: 25px;
+                        cursor: pointer;
+                        transform: translate(-50%, 0px);
+                    }
+
+                    .sweep-remove-none {
+                        display: none;
+                    }
+                }
+
+            }
+        }
+
+        .balance-group {
+            background: transparent;
+            display: flex;
+            gap: 45px;
+            width: 100%;
+
+            .balance-lists {
+                display: flex;
+                gap: 14px;
+                width: 40%;
+
+                .balance-item {
+                    background: #1D1F1F;
+                    border-radius: 10px;
+                    padding: 5px 15px;
+
+                    .title {
+                        font-family: 'Poppins';
+                        font-weight: 400;
+                        font-size: 16px;
+                        color: #B4B4B4;
+                    }
+
+                    .price {
+                        display: flex;
+                        align-items: center;
+                        gap: 5px;
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 16px;
+                        color: #FFFFFF;
+                    }
+                }
+
+                .average-balance-item,
+                .lowest-balance-item {
+                    width: 25%;
+                }
+
+                .range-balance-item {
+                    width: 50%;
+                }
+
+                @media(max-width:768px) {
+
+                    .average-balance-item,
+                    .lowest-balance-item,
+                    .range-balance-item {
+                        width: 100%;
+                    }
+                }
+            }
+
+            .total-floor-group {
+                display: flex;
+                gap: 15px;
+
+                .total-content {
+                    width: 450px;
+                    display: flex;
+                    justify-content: space-between;
+                    border: 1px solid #5F5F5F;
+                    border-radius: 10px;
+                    padding: 5px 13px;
+
+                    .total-group {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 6px;
+
+                        .title {
+                            font-family: 'Poppins';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            color: #FFFFFF;
+                        }
+
+                        .price-group {
+                            display: flex;
+                            align-items: center;
+                            gap: 6px;
+
+                            .price {
+                                font-family: 'Poppins';
+                                font-weight: 500;
+                                font-size: 16px;
+                                color: #50FAF0;
+                            }
+
+                            .usd-price {
+                                font-family: 'Poppins';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 21px;
+                                /* identical to box height */
+
+                                display: flex;
+                                align-items: center;
+
+                                color: #FFFFFF;
+                            }
+                        }
+                    }
+
+                    .buy {
+                        background: linear-gradient(137.76deg, #E873FF 7.73%, #53FFFC 97.41%);
+                        border-radius: 10px;
+                        display: flex;
+                        align-items: center;
+                        padding: 10px 66px;
+                        font-family: 'Poppins';
+                        font-weight: 600;
+                        font-size: 16px;
+                        color: #131313;
+                        cursor: pointer;
+                    }
+                }
+
+                .floor-group {
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    gap: 6px;
+                    background: #FFFFFF;
+                    border-radius: 10px;
+                    padding: 5px 15px;
+
+                    .title {
+                        font-family: 'Poppins';
+                        font-weight: 400;
+                        font-size: 16px;
+                        color: #131313;
+                    }
+
+                    .price {
+                        display: flex;
+                        align-items: center;
+                        gap: 6px;
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 16px;
+                        color: #131313;
+                    }
+                }
+
+                @media(max-width:768px) {
+                    .total-content {
+                        width: 100%;
+                    }
+
+                    .floor-group {
+                        display: flex;
+                        max-width: fit-content;
+                        margin: 0 auto;
+                    }
+                }
+            }
+
+            @media(max-width:768px) {
+                .balance-lists {
+                    width: 100%;
+                    flex-direction: column;
+                }
+
+                .total-floor-group {
+                    flex-direction: column;
+                }
+            }
+        }
+
+        @media(max-width:768px) {
+            .balance-group {
+                flex-direction: column;
+                gap: 24px
+            }
+        }
+
+    }
+
+    .nft-panel {
+        position: relative;
+        display: flex;
+
+        .nft-item {
+
+            .nft-item-independent {
+
+                a {
+                    cursor: pointer;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    background: black;
+                    border-radius: 12px;
+                    padding: 4px;
+                    text-decoration: none;
+                    color: white;
+                    font-size: 14px;
+                }
+
+                &:hover {
+                    opacity: 0.7;
+                }
+            }
+        }
+
+        .no-nftGroup {
+            position: absolute;
+            left: 50%;
+            margin-top: 155px;
+            transform: translate(-50%, 0%);
+            display: flex;
+            flex-direction: column;
+            gap: 9px;
+
+            .title {
+                font-family: 'Poppins';
+                font-weight: 600;
+                font-size: 20px;
+                text-align: center;
+                color: #FFFFFF;
+                border: none
+            }
+
+            .subTitle {
+                font-family: 'Poppins';
+                font-weight: 400;
+                font-size: 15px;
+                text-align: center;
+                color: #B4B4B4;
+                border: none
+            }
+        }
+    }
+
+    .nft-panel-height {
+        position: relative;
+        min-height: 450px;
+    }
+}

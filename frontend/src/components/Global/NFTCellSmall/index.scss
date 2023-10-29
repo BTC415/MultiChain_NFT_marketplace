@@ -1,0 +1,20 @@
+.nft-cell-small {
+    width: fit-content;
+    .nft-image {
+        width: 50px;
+    }
+    .nft-info {
+        margin-top: 3px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .solana-icon {
+        width: 14px;
+        height: 14px;
+    }
+    .price {
+        color: white;
+        font-size: 12px;
+    }
+}

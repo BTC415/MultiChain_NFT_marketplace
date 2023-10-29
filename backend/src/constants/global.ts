@@ -1,0 +1,2 @@
+export const TOP_COLLECTION_HOLDER_COUNT = 15;
+export const RECENT_TRADE_DAY = 100;

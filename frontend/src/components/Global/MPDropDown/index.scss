@@ -1,0 +1,18 @@
+.marketplace-dropdown {
+    .dropdown-toggle {
+        background-color: #131313 !important;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-gap: 4px;
+        .content-title {
+            color: #B4B4B4;
+            margin-bottom: 0 !important;
+        }
+        .content-description {
+            color: white;
+        }
+    }
+    
+}

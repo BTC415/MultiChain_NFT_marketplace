@@ -1,0 +1,83 @@
+.collection-modal {
+    .modal-dialog {
+        min-width: 600px !important;
+    }
+    .modal-header {
+        border-bottom: 1px solid #3D3D3D !important;
+    }
+    .sub-content {
+        margin-bottom: 20px;
+        .content-title {
+            color: white;
+        }
+    }
+    .content-group {
+        border-bottom: 1px solid #3D3D3D;
+        padding-bottom: 10px;
+    }
+    .count-slider-content {
+        padding: 20px;
+        .count-input {
+            margin-top: 10px;
+        }
+    }
+    .collection-info {
+    
+    }
+    .nfts {
+        margin-top: 20px;
+        .nft-list {
+            margin-top: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+    }
+    .nft-info {
+        margin-top: 20px;
+        display: flex;
+        gap: 10px;
+        .info {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            .icon {
+                width: 16px;
+                height: 16px;
+            }
+        }
+    }
+    .crypto-info {
+        margin-top: 20px;
+        display: flex;
+        gap: 10px;
+        .buy-content {
+            flex: 1;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            .price {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                .icon {
+                    width: 16px;
+                    height: 16px;
+                }
+            }
+        }
+        .floor-price {
+            .price {
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                .icon {
+                    width: 16px;
+                    height: 16px;
+                }
+            }
+        }
+    }
+}

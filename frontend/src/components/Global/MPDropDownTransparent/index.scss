@@ -1,0 +1,20 @@
+.marketplace-dropdown-transparent {
+    .dropdown-toggle {
+        background-color: transparent !important;
+        border: 2px solid #3D3D3D;
+        border-radius: 5px;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        grid-gap: 4px;
+        .content-title {
+            color: #B4B4B4;
+            margin-bottom: 0 !important;
+        }
+        .content-description {
+            color: white;
+        }
+    }
+    
+}

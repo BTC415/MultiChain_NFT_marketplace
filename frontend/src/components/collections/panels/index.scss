@@ -1,0 +1,47 @@
+.tab-item-active {
+  background: linear-gradient(137.76deg, #E873FF 7.73%, #53FFFC 97.41%);
+  ;
+  border-radius: 12px;
+  display: flex;
+  gap: 8px;
+  padding: 12px;
+  color: white;
+}
+
+.tab-item-passive {
+  border-radius: 12px;
+  display: flex;
+  gap: 8px;
+  padding: 12px;
+  background: #1d1d1d;
+  border: none;
+  color: white;
+}
+
+.no-nftGroup {
+  position: absolute;
+  left: 50%;
+  margin-top: 155px;
+  transform: translate(-50%, 0%);
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+
+  .title {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none
+  }
+
+  .subTitle {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: #B4B4B4;
+    border: none
+  }
+}

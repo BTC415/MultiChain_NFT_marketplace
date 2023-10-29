@@ -1,0 +1,49 @@
+.activities-profile {
+  .acitivites-list {
+    position: relative;
+    min-height: 450px;
+
+    .activites-status-group {
+      display: flex;
+      gap: 12px;
+    }
+
+    .t-box {
+
+      .no-nftGroup {
+        position: absolute;
+        left: 50%;
+        margin-top: 155px;
+        transform: translate(-50%, 0%);
+        display: flex;
+        flex-direction: column;
+        gap: 9px;
+
+        .title {
+          font-family: 'Poppins';
+          font-weight: 600;
+          font-size: 20px;
+          text-align: center;
+          color: #FFFFFF;
+          border: none
+        }
+
+        .subTitle {
+          font-family: 'Poppins';
+          font-weight: 400;
+          font-size: 15px;
+          text-align: center;
+          color: #B4B4B4;
+          border: none
+        }
+      }
+    }
+
+    @media(max-width:768px) {
+      .activites-status-group {
+        overflow: scroll;
+
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.nft-filter {
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .dropdown-filter {
+        display: flex;
+        gap: 10px;
+    }
+}

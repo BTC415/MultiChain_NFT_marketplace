@@ -1,0 +1,152 @@
+.make-offer-modal {
+    .modal-dialog {
+        min-width: 800px !important;
+    }
+
+    .modal-header {
+        border-bottom: 1px solid #3D3D3D !important;
+    }
+
+    .offerModal-body {
+        padding: 0 !important;
+
+        .offerModal-body-top {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            padding: 22px 20px;
+
+            .offerModal-body-intro {
+                font-family: 'Poppins';
+                font-weight: 400;
+                font-size: 16px;
+                color: #B4B4B4;
+            }
+
+            .walletBalance-content {
+                display: flex;
+                flex-direction: column;
+                gap: 6px;
+                padding: 18px 20px;
+                border: 1px solid rgba(61, 61, 61, 0.5);
+                border-radius: 10px;
+
+                .title {
+                    font-family: 'Poppins';
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: #B4B4B4;
+                }
+
+                .walletBalance-layer {
+                    display: flex;
+                    align-items: center;
+                    gap: 13px;
+
+                    .price {
+                        font-family: 'Poppins';
+                        font-weight: 500;
+                        font-size: 22px;
+                        color: #FFFFFF;
+                    }
+
+                    .usdPrice {
+                        font-family: 'Poppins';
+                        font-weight: 400;
+                        font-size: 14px;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+
+            .yourOffer-content {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+
+
+                .title {
+                    font-family: 'Poppins';
+                    font-weight: 400;
+                    font-size: 15px;
+                    color: #FFFFFF;
+                }
+
+                .yourOffer-input {
+                    display: flex;
+                    align-items: center;
+                    padding: 20px;
+                    gap: 20px;
+                    border: 1px solid rgba(61, 61, 61, 0.5);
+                    border-radius: 10px;
+
+                    input {
+                        background: transparent;
+                        // border: none;
+                        color: #757575;
+                        font-family: 'Poppins';
+                        font-weight: 400;
+                        font-size: 22px;
+                    }
+                }
+            }
+        }
+
+        .offerModal-hr {
+            display: block;
+            height: 1px;
+            border: 0;
+            border-top: 1px solid #3D3D3D;
+            // margin: 1em 0;
+            padding: 0;
+        }
+
+        .offerModal-body-bottom {
+            padding: 30px 20px;
+
+            .footer-content {
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+
+                .footer-layer {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .title {
+                        font-family: 'Poppins';
+                        font-weight: 400;
+                        font-size: 15px;
+                        color: #FFFFFF;
+                    }
+
+                    .price {
+                        font-family: 'Poppins';
+                        font-weight: 600;
+                        font-size: 16px;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+
+            .offer-btn {
+                width: 100%;
+                background: linear-gradient(137.76deg, #E873FF 7.73%, #53FFFC 97.41%);
+                border-radius: 5px;
+                padding: 13px;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-size: 16px;
+                text-align: center;
+                color: #000000;
+                margin-top: 30px;
+                cursor: pointer;
+            }
+        }
+
+
+    }
+
+}

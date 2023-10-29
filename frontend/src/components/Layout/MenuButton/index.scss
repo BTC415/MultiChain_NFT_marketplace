@@ -1,0 +1,26 @@
+.profile-linker {
+    color: #50FAF0;
+    cursor: pointer;
+}
+
+.menu-content {
+    position: absolute;
+    top: 48px;
+    right: 10px;
+    padding: 20px;
+    background: #131313;
+}
+
+.finance-actions {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-title {
+    color: #B4B4B4;
+    margin-bottom: 0 !important;
+}
+
+.wallet-balance {
+    padding-top: 10px;
+}

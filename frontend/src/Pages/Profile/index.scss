@@ -1,0 +1,188 @@
+.user-profile {
+	padding: 16px;
+
+	.profile-top-search {
+		.collection-search input::placeholder {
+			text-align: center;
+
+			color: #5F5F5F;
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 24px;
+		}
+
+		.collection-search input {
+			width: 100%;
+			max-width: 576px;
+			border: none;
+			outline: none;
+			background-color: transparent;
+			color: white;
+			margin-left: 10px;
+		}
+
+		.collection-search {
+			width: 100%;
+			max-width: 600px;
+			display: flex;
+			align-items: center;
+			border: 1px solid #3D3D3D;
+			border-radius: 10px;
+			padding: 7px 20px;
+		}
+	}
+
+	.profile-tab-group {
+
+		.profile-tab-control {
+
+			.nav-item {
+
+				button {
+					font-size: 16px;
+
+					@media(max-width:768px) {
+						button {
+							width: 140px;
+							font-size: 12px;
+						}
+					}
+				}
+			}
+		}
+
+		@media(max-width:768px) {
+			.profile-tab-control {
+				display: flex;
+				flex-wrap: nowrap;
+				overflow: scroll;
+				margin-top: 42px;
+			}
+		}
+	}
+
+	.profile-overview {
+		display: flex;
+		padding: 80px;
+
+		.username-address {
+			display: flex;
+			align-items: center;
+
+			.user-img {
+				width: 100px;
+				border-radius: 50%;
+				margin-right: 20px;
+			}
+
+			.user-name {
+				font-family: Poppins;
+				color: white;
+			}
+
+			.wallet-address {
+				color: #B4B4B4;
+			}
+		}
+
+		.edit-panel-top {
+			display: flex;
+
+			.black-btn {
+				display: flex;
+				gap: 12px;
+				color: #F4DE68;
+				font-size: 14px;
+				padding: 5px 10px;
+				margin: 5px;
+
+				div {
+					width: 20px;
+				}
+			}
+		}
+
+		.edit-panel-bottom {
+			display: none;
+		}
+
+		.crypto-data {
+			display: grid;
+			grid-template-columns: repeat(3, 150px);
+			margin-top: 30px;
+			padding: 10px 10px;
+			gap: 8px;
+			border-radius: 10px;
+
+			// .info-cell {
+			// 	margin: 3px;
+			// }
+		}
+
+		@media(max-width:768px) {
+			.username-address {
+				flex-direction: column;
+				gap: 13px;
+				text-align: center;
+
+				.user-img {
+					margin: 0 auto;
+				}
+			}
+
+			.edit-panel-top {
+				display: none;
+			}
+
+			.edit-panel-bottom {
+				display: flex;
+				justify-content: center;
+				margin-top: 20px;
+
+				.black-btn {
+					color: #F4DE68;
+					font-size: 14px;
+					padding: 5px 10px;
+					margin: 5px;
+
+				}
+			}
+
+			.crypto-data {
+				grid-template-columns: repeat(2, 49.5%);
+			}
+		}
+	}
+
+	@media(max-width:768px) {
+		.profile-top-search {
+			display: none !important;
+		}
+
+		.profile-tab-group {
+			button {
+				width: 140px;
+				font-size: 12px !important;
+			}
+		}
+
+		.profile-overview {
+			display: block;
+			padding: 40px
+		}
+
+	}
+
+	@media(max-width:540px) {
+		.profile-overview {
+			display: block;
+			padding: 24px 16px
+		}
+	}
+}
+
+@media(max-width:768px) {
+	.user-profile {
+		padding: 0
+	}
+}

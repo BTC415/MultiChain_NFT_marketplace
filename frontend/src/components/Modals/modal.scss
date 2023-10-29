@@ -1,0 +1,33 @@
+.marketplace-modal {
+    .modal-content {
+        background: #131313;
+        border-radius: 20px;
+        .modal-header {
+            background-color: transparent;  
+            border: none;
+            .modal-title {
+                font-size: 20px !important; 
+            }
+        }
+        .modal-body {
+            background-color: transparent;   
+            .modal-description {
+                color: #B4B4B4;
+                font-family: Poppins;
+                font-size: 14px;
+                margin-top: -20px;
+            }
+        }
+        .modal-footer {
+            background-color: transparent;  
+            border-top: 1px solid #3D3D3D; 
+        }
+    }   
+    .content-title {
+        color: #B4B4B4;
+        margin-bottom: 10px !important;
+        font-family: Poppins;
+        font-size: 14px;
+    }
+    
+}

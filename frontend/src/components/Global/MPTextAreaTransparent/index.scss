@@ -1,0 +1,10 @@
+.mp-text-area-transparent {
+    background-color: transparent !important;
+    border: 2px solid #3D3D3D;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    &::placeholder {
+        color: #6B6B6B;
+    }
+}

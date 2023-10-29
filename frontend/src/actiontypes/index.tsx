@@ -1,0 +1,4 @@
+export const COLLECTION_NAME = 'COLLECTION_NAME'
+export const PRICE_NFT = 'PRICE_NFT'
+
+export const METAMASK_CONNECT = 'METAMASK_CONNECT'

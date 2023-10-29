@@ -1,0 +1,187 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "ISparksToken",
+  "sourceName": "contracts/mocks/Spark/interfaces/ISparksToken.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "balanceOf",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "distributeTokens",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getTaxationWallet",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_SeedInvestmentAddr",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "_StrategicRoundAddr",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "_PrivateSaleAddr",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "_PublicSaleAddr",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "_TeamAllocationAddr",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "_StakingRewardsAddr",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "_CommunityDevelopmentAddr",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "_MarketingDevelopmentAddr",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "_LiquidityPoolAddr",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "_AirDropAddr",
+          "type": "address"
+        }
+      ],
+      "name": "setDistributionTeamsAddresses",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_locker",
+          "type": "address"
+        }
+      ],
+      "name": "setLocker",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_newTaxationWallet",
+          "type": "address"
+        }
+      ],
+      "name": "setTaxationWallet",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "recipient",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "transfer",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "sender",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "recipient",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "transferFrom",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

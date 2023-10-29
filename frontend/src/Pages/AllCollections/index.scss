@@ -1,0 +1,105 @@
+.allCollection-page {
+
+    .allCollection-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .allCollection-title {
+        font-family: 'Poppins';
+        font-weight: 600;
+        font-size: 25px;
+        color: #FFFFFF;
+        margin-top: 44px;
+    }
+
+    .allCollection-control {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .filter-search-group {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 60px;
+
+            .collection-search input::placeholder {
+                text-align: center;
+
+                color: #5F5F5F;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+            }
+
+            .collection-search input {
+                width: 100%;
+                max-width: 576px;
+                border: none;
+                outline: none;
+                background-color: transparent;
+                color: white;
+                margin-left: 10px;
+            }
+
+            .collection-search {
+                width: 100%;
+                max-width: 250px;
+                display: flex;
+                align-items: center;
+                border: 1px solid #3D3D3D;
+                border-radius: 10px;
+                padding: 7px 20px;
+            }
+        }
+
+        .table-control,
+        .table-control-height {
+            position: relative;
+
+            .allCol-th {
+                min-width: 140px;
+            }
+            
+            .tbody-tr {
+                td {
+                    padding:20px
+                }
+            }
+
+            .no-nftGroup {
+                position: absolute;
+                left: 50%;
+                margin-top: 155px;
+                transform: translate(-50%, 0%);
+                display: flex;
+                flex-direction: column;
+                gap: 9px;
+
+                .title {
+                    font-family: 'Poppins';
+                    font-weight: 600;
+                    font-size: 20px;
+                    text-align: center;
+                    color: #FFFFFF;
+                    border: none
+                }
+
+                .subTitle {
+                    font-family: 'Poppins';
+                    font-weight: 400;
+                    font-size: 15px;
+                    text-align: center;
+                    color: #B4B4B4;
+                    border: none
+                }
+            }
+        }
+
+        .table-control-height {
+            position: relative;
+            min-height: 450px;
+        }
+    }
+}

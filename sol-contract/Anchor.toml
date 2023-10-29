@@ -1,0 +1,14 @@
+[programs.localnet]
+degen_marketplace_contract = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+[programs.devnet]
+degen_marketplace_contract = "EJpcoKdCNCQUgauCLdLpiqC9EmaG8HEBZpCFqUDBMvZG"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "https://metaplex.devnet.rpcpool.com/"
+wallet = "/home/guardian/work/solana/devnet.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"

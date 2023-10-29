@@ -1,0 +1,1 @@
+export const chainId = "0x5"; //Goerli TestNet

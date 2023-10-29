@@ -1,0 +1,92 @@
+.setting-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+    .nft-control-menu {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        .menu-desktop-control {
+            width: 100%;
+            display: flex;
+            gap: 8px;
+
+            .menu-displayer {
+                display: flex;
+                align-items: center;
+            }
+
+            .filter-control {
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+                align-items: center;
+
+                .filter-list {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                }
+            }
+
+
+            .setting-icon {
+                font-size: 20px;
+                transform: rotate(90deg)
+            }
+
+            .menuBtn-group {
+                display: none;
+            }
+
+            @media(max-width:768px) {
+                .menu-displayer {
+                    display: block;
+                    width: 100%;
+                }
+
+                .menuBtn-group {
+                    display: block;
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-top: 16px;
+                }
+
+                .menu-mobile-group {
+                    display: block;
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                }
+            }
+        }
+
+        @media(max-width:768px) {
+            .menu-mobile-control {
+                width: 90%;
+                display: block;
+                margin: 0 auto
+            }
+        }
+    }
+
+    @media(max-width:768px) {
+        .nft-control-menu {
+            width: 100%;
+            display: block;
+            flex-direction: column;
+        }
+    }
+}
+
+@media(max-width:768px) {
+    .setting-content {
+        width: 100%;
+        justify-content: center;
+    }
+}
